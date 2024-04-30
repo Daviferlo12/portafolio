@@ -1,6 +1,7 @@
 import reflex as rx
 from portafolio.styles.styles import STYLESHEETS, BASE_STYLE, Size,MAX_WIDTH, EmSize
 from portafolio.views.header import header
+from portafolio.views.about import about
 
 class State(rx.State):
     """The app state."""
@@ -11,6 +12,8 @@ def index() -> rx.Component:
         # rx.theme_panel(),
         rx.vstack(
             header(),
+            about(),
+            rx.divider(),
             spacing=Size.MEDIUM.value,
             padding_x=EmSize.MEDIUM.value,
             padding_y=EmSize.BIG.value,
@@ -25,7 +28,7 @@ app = rx.App(
     style=BASE_STYLE,
     theme=rx.theme(
         appearance="dark",
-        accent_color="teal",
+        accent_color="cyan",
         radius="full"
     )
 )
