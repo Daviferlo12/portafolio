@@ -1,10 +1,10 @@
 {
     "title": "David Lopez | Portafolio",
     "description": "Aprendiendo a programar en python",
-    "image": "/avatar.jpg",
-    "avatar": "/avatar.jpg",
+    "image": "/Avatar.png",
+    "avatar": "/Avatar.png",
     "name": "David Lopez",
-    "skill": "Programador",
+    "skill": "Junior Developer",
     "location": "Bogota, Colombia",
     "media": {
         "email": "daviferlo12@gmail.com",
@@ -60,7 +60,7 @@
     ],
     "projects": [
         {
-            "icon": "devicon-twitter-original",
+            "icon": "bird",
             "title": "API TWETTER",
             "subtitle": "Simulacion de la API de twetter",
             "description": "Simulacion de la API de twetter que contiene crud de usuarios, de tweetts y autenticacion por medio de JWT",
@@ -82,7 +82,7 @@
             "icon": "file-terminal",
             "title": "Crud Clientes",
             "subtitle": "Aplicacion de consola",
-            "description": "Aplicacion de consoila haciendo uso del framework click de python",
+            "description": "Aplicación de consola, haciendo uso del framework Click de Python",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -99,15 +99,14 @@
             "icon": "backpack",
             "title": "Ingenieria de Software",
             "subtitle": "Universitaria de Colombia",
-            "description": "Aprendí cosas.",
-            "date": "2023 - 2026",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "description": "Ingeniero de Software",
+            "date": "2023 - 2026"
         },
         {
             "icon": "graduation-cap",
             "title": "Tecnologo ADSI",
             "subtitle": "SENA",
-            "description": "Aprendí más cosas.",
+            "description": "Tecnologo en Analisis y Desarrollo de Sistemas de Informacion",
             "date": "2020 - 2022",
             "certificate": "/data/SENA_C.pdf"
         }

@@ -1,30 +1,33 @@
 import reflex as rx 
 from portafolio.components.link_button import link_icon_button
 from portafolio.styles.styles import Size
-import portafolio.constanst as constant
 
-def media_links() -> rx.Component:
+# DATA JSON
+from portafolio.models.media import Media
+
+def media_links(data: Media) -> rx.Component:
     return rx.flex(
         link_icon_button(
             "mail",
-            f'mailto:{constant.EMAIL}',
-            constant.EMAIL,
+            f'mailto:{data.email}',
+            data.email,
             True
         ),
         rx.hstack(
             link_icon_button(
                 "file-text",
-                constant.CV
+                data.cv
             ),
             link_icon_button(
                 "github",
-                constant.GITHUB
+                data.github
             ),
             link_icon_button(
                 "linkedin",
-                constant.LINKEDIN
+                data.likedin
             ),
             spacing= Size.SMALL.value
         ),
-        spacing= Size.SMALL.value
+        spacing= Size.SMALL.value,
+        flex_direction=["column", "column", "row"]
     )

@@ -3,20 +3,27 @@ from portafolio.styles.styles import Size
 from portafolio.components.heading import heading
 from portafolio.components.media_links import media_links
 
-def header() -> rx.Component:
+# DATA JSON
+from portafolio.models.data_all import Data
+
+
+def header(data : Data) -> rx.Component:
     return rx.hstack(
         rx.avatar(
-            size = Size.BIG.value
+            src= data.avatar,
+            size = Size.BIG.value,
+            border = "solid 4px",
+            border_color = "#00a2c7"
         ),
         rx.vstack(
-            heading("David Lopez", True),
-            heading("Junior Developer"),
+            heading(data.name, True),
+            heading(data.skill),
             rx.text(
                 rx.icon("map-pin"),
-                "Bogota, Colombia",
+                data.location,
                 display = "inherit"
             ),
-            media_links(),
+            media_links(data.media),
             spacing= Size.SMALL.value
         ),
         spacing= Size.DEFAULT.value
