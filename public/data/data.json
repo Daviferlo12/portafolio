@@ -1,0 +1,134 @@
+{
+    "title": "David Lopez | Portafolio",
+    "description": "Aprendiendo a programar en python",
+    "image": "/Avatar.png",
+    "avatar": "/Avatar.png",
+    "name": "David Lopez",
+    "skill": "Junior Developer",
+    "location": "Bogota, Colombia",
+    "media": {
+        "email": "daviferlo12@gmail.com",
+        "cv": "/data/CV_2.pdf",
+        "github": "https://github.com/Daviferlo12",
+        "likedin": "https://www.linkedin.com/in/david-lopez69/"
+    },
+    "about": "Joven proactivo con habilidades destacadas en atención al detalle, trabajo en equipo y resolución de problemas. Capacidad para aprender rápidamente y adaptarse a entornos cambiantes. Experiencia en desarrollo web y soporte a aplicaciones. Apasionado por mejorar mis habilidades en el desarrollo de software y dispuesto a asumir desafíos para crecer profesionalmente.",
+    "technologies": [
+        {
+            "icon": "devicon-python-plain",
+            "name": "Python"
+        },
+        {
+            "icon": "devicon-fastapi-plain",
+            "name": "FastApi"
+        },
+        {
+            "icon": "devicon-django-plain",
+            "name": "Django"
+        },
+        {
+            "icon": "devicon-mysql-original",
+            "name": "MySql"
+        },
+        {
+            "icon": "devicon-javascript-plain",
+            "name": "JavaScript"
+        }
+    ],
+    "experience": [
+        {
+            "icon": "home",
+            "title": "Analista de Soporte QA",
+            "subtitle": "HABI",
+            "description": " Revisión y gestión de bases de datos utilizando MySQL, asegurando que los datos sean precisos y estén accesibles. También se realizaron pruebas funcionales para identificar y replicar errores, colaborando estrechamente con equipos de desarrollo, QA y clientes para entender sus necesidades y expectativas, facilitando una resolución eficaz de problemas. Además, se mejoró la eficiencia operativa mediante la automatización de procesos con herramientas NoCode.",
+            "date": "2023 - 2024"
+        },
+        {
+            "icon": "globe-lock",
+            "title": "Analista SOC",
+            "subtitle": "Multisoft S.A.S",
+            "description": "Investigación y análisis de incidentes de seguridad, identificando y reportando comportamientos sospechosos detectados mediante diversas herramientas de seguridad. Además, realizar análisis de amenazas y vulnerabilidades para fortalecer la seguridad. Asimismo, automatizo procesos utilizando Python para mejorar la eficiencia operativa.",
+            "date": "2022 - 2023"
+        },
+        {
+            "icon": "code",
+            "title": "Desarrollador Web",
+            "subtitle": "Confiest",
+            "description": "Desarrollo de soluciones web utilizando PHP y JavaScript, así como en la creación y optimización de consultas y procedimientos almacenados en SQL Server. También he trabajado en la creación y mejora de funcionalidades web, y en el análisis y consumo de APIs SOAP y RESTful para integrar datos con sistemas externos.",
+            "date": "2022 - 2023"
+        }
+    ],
+    "projects": [
+        {
+            "icon": "bird",
+            "title": "API TWETTER",
+            "subtitle": "Simulacion de la API de twetter",
+            "description": "Simulacion de la API de twetter que contiene crud de usuarios, de tweetts y autenticacion por medio de JWT",
+            "technologies": [
+                {
+                    "icon": "devicon-fastapi-plain",
+                    "name": "FastApi"
+                },
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                }
+            ],
+            "image": "/api_twetter.png",
+            "url": "https://api_twitter-1-j4089200.deta.app/docs",
+            "github": "https://github.com/Daviferlo12/api_twitter_fast_api"
+        },
+        {
+            "icon": "file-terminal",
+            "title": "Crud Clientes",
+            "subtitle": "Aplicacion de consola",
+            "description": "Aplicación de consola, haciendo uso del framework Click de Python",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                }
+            ],
+            "image": "/framework_click.png",
+            "url": "https://github.com/Daviferlo12/CRUD_CLIENTS",
+            "github": "https://github.com/Daviferlo12/CRUD_CLIENTS"
+        }
+    ],
+    "training": [
+        {
+            "icon": "backpack",
+            "title": "Ingenieria de Software",
+            "subtitle": "Universitaria de Colombia",
+            "description": "Ingeniero de Software",
+            "date": "2023 - 2026"
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "Tecnologo ADSI",
+            "subtitle": "SENA",
+            "description": "Tecnologo en Analisis y Desarrollo de Sistemas de Informacion",
+            "date": "2020 - 2022",
+            "certificate": "/data/SENA_C.pdf"
+        }
+    ],
+    "extras": [
+        {
+            "image": "/platzi.png",
+            "title": "Curso de FastApi",
+            "description": "Terminacion de curso de fastapi",
+            "url": "https://platzi.com/p/daviferlo69/curso/2514-fastapi-errores/diploma/detalle/"
+        },
+        {
+            "image": "/platzi.png",
+            "title": "Curso de Apis con .NET",
+            "description": "Terminacion de curso de apis con .NET",
+            "url": "https://platzi.com/p/daviferlo69/curso/2983-apis-net/diploma/detalle/"
+        },
+        {
+            "image": "/udemy.png",
+            "title": "Curso de .NET",
+            "description": "Terminacion de curso de .NET",
+            "url": "https://www.udemy.com/certificate/UC-baee89ec-b304-4e73-89ff-e91c5dce4ca6/"
+        }
+    ]
+}
